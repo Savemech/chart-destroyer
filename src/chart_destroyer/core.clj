@@ -78,6 +78,6 @@
         (println "Threshold not provided. Please specify a threshold with -t/--threshold.")))))
 
 (defn -main-cli [& args]
-  (environ/bind-env :HARBOR_URL "https://registry.idmp.tech")
+  (environ/bind-env :HARBOR_URL "YOUR_HARBOR_URL_HERE")
   (environ/bind-env :HARBOR_TOKEN "YOUR_HARBOR_TOKEN_HERE")
   (-main args))
